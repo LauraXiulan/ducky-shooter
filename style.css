@@ -1,0 +1,22 @@
+html {
+	cursor: url('img/crosshair.png'), auto;
+}
+
+body {
+	background: url("img/pond.jpg") no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.selectDisable {-webkit-user-select: none;  -khtml-user-select: none;   -moz-user-select: none; -o-user-select: none;    user-select: none; }
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	margin-left: 50%;
+	color: darkgreen;
+	text-shadow: 1px 1px black;
+}
