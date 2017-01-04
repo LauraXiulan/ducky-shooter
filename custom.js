@@ -41,7 +41,7 @@ function createDucks (count) {
             easing: "linear",
             complete: function() {
                 $(this).hide()
-                missCount++;
+                // missCount++;
             }
         })
         duck.click(function() {
